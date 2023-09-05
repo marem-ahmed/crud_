@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/crud.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">  
+</head>
+<body>
+    <div class="  container p-5 m-auto  W-75">
+
+    <form class="form">
+    <div class="form-group">
+    <label for="name product:">name product:</label>
+    <input type="text" class="name product  py-2 w-75 form-control " name="name product" id="nameproduct">
+    
+    </div>
+    <div class="form-group">
+    <label for="price:">price:</label>
+    <input type="number" class="input% py-2 w-75 form-control" name="price" id="price">
+    </div>
+    <div class="form-group">
+    <label for="category:">category:</label>
+    <input type="text" class="input% py-2 w-75 form-control" name="category" id="category">
+    </div>
+    <div class="form-group">
+    <label for="description:">description:</label>
+    <textarea type="text" class="input% py-2 w-75 form-control" name="discription" id="description"></textarea>
+    </div>
+    <button  class="btn border-info mt-2" id="btn"> add product</button>
+    <button class="upDate border-info" id="btn2"> update product</button>
+
+    <div class="form-group">
+    <label for="">search:</label>
+    <input  type="text" class="py-2 w-75 form-control"id=search name="search" >
+    </div>
+    </form>
+
+</div>
+<table class="table w-75 container P-5 m-auto">
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>name</th>
+        <th>price</th>
+        <th>category</th>
+        <th>disc</th>
+       <th>Updata</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody id="tbody">
+
+
+    </tbody>
+
+</table>
+
+
+    <script src="crud.js"></script>
+</body>
+</html>

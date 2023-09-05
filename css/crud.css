@@ -1,0 +1,12 @@
+.upDate {
+    display: none;
+    border-radius: 5px;
+    padding: 6px 4px;
+    width: fit-content;
+    background-color: transparent;
+    border: solid 1px;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+
